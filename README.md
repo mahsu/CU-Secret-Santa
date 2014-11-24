@@ -5,7 +5,7 @@ CU Secret Santa is a convenient and fully integrated gift exchange web applicati
 ###Features:
 * Support for custom groups and event groups.
 * Automatic random gift exchange partner assignments.
-* Fully automated multiyear event support.
+* Fully automated multi-year event support.
 * Integrated admin panel with the ability to manage default groups, initiate random partner assignment, and manage event settings.
 
 ###Setup Instructions:
@@ -30,6 +30,11 @@ CU Secret Santa is a convenient and fully integrated gift exchange web applicati
             $db['default']['username'] = 'your_username';
             $db['default']['password'] = 'your_password';
             $db['default']['database'] = 'your_database';
+    * Duplicate `oauth.template.php` and rename it `oauth.php`. Add your google auth api provider details:
+    
+            $config['google_client_id'] = 'YOUR_CLIENT_ID';
+            $config['google_client_secret'] = 'YOUR_CLIENT_SECRET';
+            $config['google_redirect_uri'] = 'YOUR_REDIRECT_URI';
     * Duplicate `email.template.php` and rename it `email.php`. Change parameters as needed. You can leave this file as-is if you do not wish to use email functionality.
 3. In a web browser, visit `http://localhost/setup` and follow the onscreen instructions to begin basic application setup.
 4. If you are deploying the app for a production server, open `/index.php`. On line 21, change:

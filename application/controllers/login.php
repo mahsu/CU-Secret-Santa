@@ -32,7 +32,7 @@ class Login extends CI_Controller
         } else {
 
             // Try to get an access token (using the authorization code grant)
-            $token = $provider->getAccessToken('authorization_code', [
+            $token = $provider->getAccessToken('authorizationCode', [
                 'code' => $_GET['code']
             ]);
 
