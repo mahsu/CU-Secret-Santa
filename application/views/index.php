@@ -11,8 +11,8 @@
         <div class="home-spotlight"></div>
         <div style="margin:100px 30px 0px 30px;">
             <div class="subsection-icon" style="font-size:65px;line-height:65px;">&#xF06B;</div>
-            <div class="section-header"><?php echo $this->datamod->totalgiftsExchanged(false) ?> gifts exchanged!</div>
-            <div class="subsection-text">HTHS Secret Santa is a fully fledged, feature filled application that makes it
+            <div class="section-header">Linking Cornell Together</div>
+            <div class="subsection-text">Cornell Secret Santa is a fully fledged, feature filled application that makes it
                 easy to exchange
                 gifts with your friends and enemies.
             </div>
@@ -29,47 +29,47 @@
                 <div class="col-md-6">
                     <div id="quovolver">
                         <blockquote>
-                            <p>Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness
+                            <p>"Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness
                                 in
                                 giving
                                 creates love."</p>
                             <small> Lao Tzu</small>
                         </blockquote>
                         <blockquote>
-                            <p>I have found that among its other benefits, giving liberates the soul of the giver."</p>
+                            <p>"I have found that among its other benefits, giving liberates the soul of the giver."</p>
                             <small> Maya Angelou</small>
                         </blockquote>
                         <blockquote>
-                            <p>If you wait until you can do everything for everybody, instead of something for somebody,
+                            <p>"If you wait until you can do everything for everybody, instead of something for somebody,
                                 you'll end
                                 up
                                 not doing nothing for nobody."</p>
                             <small> Malcom Bane</small>
                         </blockquote>
                         <blockquote>
-                            <p>To know even one life has breathed easier because you have lived. This is to have
+                            <p>"To know even one life has breathed easier because you have lived. This is to have
                                 succeeded."</p>
                             <small> Ralph Waldo Emerson</small>
                         </blockquote>
                         <blockquote>
-                            <p>The best way to find yourself is to lose yourself in the service of others."</p>
+                            <p>"The best way to find yourself is to lose yourself in the service of others."</p>
                             <small> Ralph Waldo Emerson</small>
                         </blockquote>
                         <blockquote>
-                            <p>The value of a man resides in what he gives and not in what he is capable of
+                            <p>"The value of a man resides in what he gives and not in what he is capable of
                                 receiving."</p>
                             <small> Albert Einstein</small>
                         </blockquote>
                         <blockquote>
-                            <p>Make all you can, save all you can, give all you can."</p>
+                            <p>"Make all you can, save all you can, give all you can."</p>
                             <small> John Wesley</small>
                         </blockquote>
                         <blockquote>
-                            <p>No person was ever honored for what he received. He was honored for what he gave."</p>
+                            <p>"No person was ever honored for what he received. He was honored for what he gave."</p>
                             <small> Calvin Coolidge</small>
                         </blockquote>
                         <blockquote>
-                            <p>Sometimes a small thing you do can mean everything in another person's life."</p>
+                            <p>"Sometimes a small thing you do can mean everything in another person's life."</p>
                         </blockquote>
                     </div>
                 </div>
@@ -111,10 +111,8 @@
                 </div>
                 <div class="col-md-6">
                     <div class="subsection-icon">&#xF0C3;</div>
-                    <div class="subsection-header">Built by High Tech, for High Tech.</div>
-                    <div class="subsection-text">We've redesigned the look and feel with added functionality that will
-                        make your Secret Santa
-                        experience even more enjoyable.
+                    <div class="subsection-header">Ezra says:</div>
+                    <div class="subsection-text">I will found a website where any person can get a gift from any other person.
                     </div>
                 </div>
             </div>

@@ -3,17 +3,16 @@
         <h2> Frequently Asked Questions </h2>
         <br/>
         <dl>
-            <dt> What is HTHS Secret Santa?</dt>
-            <dd>In operation since <?=$first_year?>, <i>HTHS Secret Santa</i> is a web app built by and for HTHS
-                students.
-                Our goal is to foster community and giving in the High Tech community by organizing an intuitive
+            <dt> What is Cornell Secret Santa?</dt>
+            <dd>In operation for its first year, <i>Cornell Secret Santa</i> is an app that makes it easy to organize secret santa gift exchanges throughout campus.
+                Our goal is to foster community and giving in the Cornell community by organizing an intuitive
                 <a href="http://www.wikihow.com/Do-a-Secret-Santa"> Secret Santa</a>
                 through a web application. We'd love for you to participate in this year's festivities!
             </dd>
 
             <dt> How do I register?</dt>
-            <dd>You can register <a href="<?php echo base_url('login') ?>">here</a>. Be sure to use your "ctemc.org"
-                email when registering!
+            <dd>You can register <a href="<?php echo base_url('login') ?>">here</a>. Emails are restricted to the "cornell.edu"
+                domain.
             </dd>
 
             <dt> What if I want to have a Secret Santa among my own friends?</dt>
@@ -26,7 +25,7 @@
             </dd>
 
             <dt> What is the price range for gifts?</dt>
-            <dd>For the school-wide HTHS group, try to keep your budgets around $10. Remember that creative and
+            <dd>For any public groups, try to keep your budgets around $10. Remember that creative and
                 thoughtful gifts
                 are more valuable than excessively pricey gifts!
             </dd>
@@ -41,6 +40,8 @@
             <dd>You can remove yourself from any group as long as you do so before <i> <?= date_format($partner_date,"m/d"); ?> (when partners are assigned). </i> Otherwise, don't back out of your commitments, or there will be repercussions. Don't be
                 <i> that </i> guy.
             </dd>
+            <dt>Is Cornell Secret Santa affiliated with Cornell University?</dt>
+            <dd>Cornell Secret Santa is not in any way affiliated with Cornell University.</dd>
         </dl>
 	<span style="text-align:center">
 	<h3><i> Enjoy! </i></h3>
@@ -49,8 +50,7 @@
         <h2> Special thanks... </h2>
 
         <ul>
-            <li>Made with <3 by the Class of 2014</li>
-            <li><b> Developers:</b> Matthew Hsu (2014); Zachary Liu(2014); Vincent Chen (2014);</li>
+            <li><b> Developers:</b> Matthew Hsu (Cornell University); Zachary Liu (Princeton University); Vincent Chen (Stanford University);</li>
         </ul>
     </div>
 

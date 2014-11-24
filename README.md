@@ -1,6 +1,6 @@
-HTHS-Secret-Santa
+CU-Secret-Santa
 =================
-HTHS Secret Santa is a convenient and fully integrated gift exchange web application designed to facilitate the coordination of gift exchanges during the holiday season.
+CU Secret Santa is a convenient and fully integrated gift exchange web application designed to facilitate the coordination of gift exchanges during the holiday season.
 
 ###Features:
 * Support for custom groups and event groups.
@@ -30,3 +30,5 @@ HTHS Secret Santa is a convenient and fully integrated gift exchange web applica
    
         define('ENVIRONMENT', 'production');
         
+###About:
+CU Secret Santa is a hard fork of another Secret Santa project, [HTHS-Secret-Santa](https://github.com/mahsu/HTHS-Secret-Santa).
