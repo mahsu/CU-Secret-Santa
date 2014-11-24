@@ -21,5 +21,6 @@
 *.map
 
 /phpmyadmin
-
-node_modules
+/vendor
+/node_modules
+composer.lock

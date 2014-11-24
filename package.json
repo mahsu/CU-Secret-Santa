@@ -4,5 +4,10 @@
     "grunt": "~0.4.2",
     "grunt-contrib-coffee": "~0.7.0",
     "grunt-contrib-less": "~0.8.2"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-less": "^0.12.0"
   }
 }

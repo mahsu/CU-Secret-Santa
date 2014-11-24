@@ -9,6 +9,15 @@ CU Secret Santa is a convenient and fully integrated gift exchange web applicati
 * Integrated admin panel with the ability to manage default groups, initiate random partner assignment, and manage event settings.
 
 ###Setup Instructions:
+1. Make sure you have Composer installed, and install all php dependencies by running:
+    
+        composer install
+1. Make sure you have npm installed, and install all dependencies by running:
+
+        npm install
+1. Make sure you have grunt-cli installed, and compile all coffeescript and less dependencies by running:
+
+        grunt
 1. Create the database specified by the schema in `database.sql`.
 2. In `/application/config`:
     * Duplicate `config.template.php` and rename it `config.php`. On line 227, modify
