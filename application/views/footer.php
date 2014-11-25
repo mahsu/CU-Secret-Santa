@@ -14,7 +14,7 @@
                     allowtransparency="true" frameborder="0" scrolling="0" width="150" height="20"></iframe>
             <iframe src="http://ghbtns.com/github-btn.html?user=vincentschen&type=follow&count=false"
                     allowtransparency="true" frameborder="0" scrolling="0" width="160" height="20"></iframe>
-            <a href="https://github.com/mahsu/HTHS-Secret-Santa/issues/new" target="_blank">Report a bug</a>
+            <a href="https://github.com/mahsu/CU-Secret-Santa/issues/new" target="_blank">Report a bug</a>
         </div>
     </div>
 </div>

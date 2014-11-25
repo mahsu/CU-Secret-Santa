@@ -14,7 +14,10 @@
             <dd>You can register <a href="<?php echo base_url('login') ?>">here</a>. Emails are restricted to the "cornell.edu"
                 domain.
             </dd>
-
+            <dt>What information do you collect?</dt>
+            <dd>
+                Your name and email address are the only information we store, so nothing that's not already <a target="_blank" href="https://www.cornell.edu/search/?tab=people">publicly available</a>. Authentication is done over Google's oauth api, and registration is restricted to only users who have a <i>cornell.edu</i> email. The project is <a href="https://github.com/mahsu/CU-Secret-Santa" target="_blank">open source</a> as well.
+            </dd>
             <dt> What if I want to have a Secret Santa among my own friends?</dt>
             <dd><i>You can!</i> We implemented a unique "groups" feature that allows you to participate in multiple <i>
                     Secret Santas </i>.
