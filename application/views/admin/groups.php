@@ -1,4 +1,4 @@
-<script src="<?php echo base_url("/js/admin/groups.js") ?>"></script>
+<script src="<?php echo base_url("/js/groups.js") ?>"></script>
 <script src="<?php echo base_url("/js/memberlist.js") ?>"></script>
 <? //sidebar tags loaded from admin/sidebar.php?>
 <?php if ($this->session->flashdata('admin')) echo $this->session->flashdata('admin'); //if there's an admin result, echo it?>
