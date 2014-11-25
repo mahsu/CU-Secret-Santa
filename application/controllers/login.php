@@ -19,8 +19,8 @@ class Login extends CI_Controller
         'clientId'  =>  $this->config->item('google_client_id'),
         'clientSecret'  =>  $this->config->item('google_client_secret'),
         'redirectUri'   =>  $this->config->item('google_redirect_uri'),
-        'scopes' => array('email'),
-    ));
+        'scopes' => array('profile', 'email'),
+    ));//profile scope required if user does not have google plus
 
         if ( ! isset($_GET['code'])) {
 
@@ -32,7 +32,7 @@ class Login extends CI_Controller
         } else {
 
             // Try to get an access token (using the authorization code grant)
-            $token = $provider->getAccessToken('authorizationCode', [
+            $token = $provider->getAccessToken('authorization_code', [
                 'code' => $_GET['code']
             ]);
 
