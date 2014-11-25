@@ -34,9 +34,7 @@
             </dd>
 
             <dt> What kinds of gifts should I buy?</dt>
-            <dd>You can buy anything that you think that your exchange partner would enjoy! Please make sure it's school
-                appropriate,
-                because you will be bringing your gifts into school.
+            <dd>You can buy anything that you think that your exchange partner would enjoy! Please refraain from illegal gifts, as we do not take any liability for gifts exchanged.
             </dd>
 
             <dt>What do I do if I don't want to participate anymore?</dt>
