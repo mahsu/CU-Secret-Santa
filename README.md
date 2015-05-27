@@ -24,13 +24,13 @@ CU Secret Santa is a convenient and fully integrated gift exchange web applicati
     
             $config['encryption_key'] = ''; 
     to a include secure password of your choosing.
-    * Duplicate `database.php-template` and rename it `database.php`. Modify your database credentials:
+    * Duplicate `database.template.php` and rename it `database.php`. Modify your database credentials:
         
             $db['default']['hostname'] = 'localhost';
             $db['default']['username'] = 'your_username';
             $db['default']['password'] = 'your_password';
             $db['default']['database'] = 'your_database';
-    * Duplicate `oauth.template.php` and rename it `oauth.php`. Add your google auth api provider details:
+    * Duplicate `oauth.template.php` and rename it `oauth.php`. Modify your google oauth client settings:
     
             $config['google_client_id'] = 'YOUR_CLIENT_ID';
             $config['google_client_secret'] = 'YOUR_CLIENT_SECRET';
